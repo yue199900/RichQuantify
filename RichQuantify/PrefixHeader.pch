@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  RichQuantify
+//
+//  Created by 岳万里 on 2017/9/11.
+//  Copyright © 2017年 岳万里. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define SCREENWIDTH  ([UIScreen mainScreen].bounds.size.width)
+#define SCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define TestUrl @"http://114.141.165.244:8088/hq/"
+
+#import <AFNetworking.h>
+#import "AFNetWorkManager.h"
+#import <MBProgressHUD.h>
+#import <UIImageView+WebCache.h>
+#import <DXPopover.h>
+#import <MJRefresh.h>
+#import <SDCycleScrollView.h>
+#import <IQKeyboardManager.h>
+#import <Masonry.h>
+#import "UIView+Extension.h"
+#import "CRSA.h"
+#import "Base64.h"
+#import <JRDB.h>
+#import "Colours.h"
+#import "Tools.h"
+#import "JoeExcelView.h"
+#import <SDAutoLayout.h>
+
+#endif /* PrefixHeader_pch */
